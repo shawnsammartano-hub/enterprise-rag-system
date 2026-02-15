@@ -83,7 +83,7 @@ ollama pull nomic-embed-text
 ### Installation
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/enterprise-rag-system.git
+git clone https://github.com/shawnsammartano-hub/enterprise-rag-system.git
 cd enterprise-rag-system
 
 # Install dependencies
@@ -243,10 +243,10 @@ MIT License - See LICENSE file for details
 
 ## 📧 Contact
 
-Built by: Shawn  
-Portfolio: [Your Portfolio URL]  
-LinkedIn: [Your LinkedIn]  
-Purpose: AI Enablement demonstration for enterprise fintech applications
+Built by: Shawn Sammartano 
+Portfolio: [Your Portfolio URL] (https://shawnsammartano-hub.github.io/data-driven-csm/) 
+LinkedIn: [Your LinkedIn] (https://www.linkedin.com/in/shawnsammartano/)
+Purpose: AI Enablement demonstration
 
 ---
 
