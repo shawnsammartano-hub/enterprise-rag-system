@@ -89,7 +89,7 @@ if __name__ == "__main__":
     print()
     
     # Load sample document
-    doc_path = Path(__file__).parent.parent / "documents" / "fis_overview.txt"
+    doc_path = Path(__file__).parent.parent / "documents" / "fintech_overview.txt"
     
     if not doc_path.exists():
         print(f"⚠️  Document not found: {doc_path}")
