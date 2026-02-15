@@ -150,7 +150,7 @@ if __name__ == "__main__":
     # Example: Ingest documents with metadata
     print("📚 Sample Ingestion with Metadata:\n")
     
-    doc1 = "FIS Global uses Databricks for data analytics and Snowflake for data warehousing."
+    doc1 = "Fintech Company uses Databricks for data analytics and Snowflake for data warehousing."
     
     rag.ingest_with_metadata(
         text=doc1,
@@ -167,7 +167,7 @@ if __name__ == "__main__":
     
     # Query 1: No filter
     print("1️⃣ No Filter (search all documents):")
-    result1 = rag.query_with_filter("What does FIS use for analytics?")
+    result1 = rag.query_with_filter("What does Fintech Company use for analytics?")
     print(f"   Answer: {result1['answer']}")
     print(f"   Filter: {result1['filter_applied']}")
     print()
@@ -175,7 +175,7 @@ if __name__ == "__main__":
     # Query 2: With filter
     print("2️⃣ With Filter (document_type = 'technical'):")
     result2 = rag.query_with_filter(
-        "What does FIS use for analytics?",
+        "What does Fintech Company use for analytics?",
         metadata_filter={"document_type": "technical"}
     )
     print(f"   Answer: {result2['answer']}")
