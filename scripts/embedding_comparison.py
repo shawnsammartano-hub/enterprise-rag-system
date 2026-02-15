@@ -167,8 +167,8 @@ if __name__ == "__main__":
     comparator = EmbeddingComparison()
     
     # Sample text
-    sample_text = """FIS Global is a Fortune 500 company providing financial 
-    technology solutions to banks, merchants, and capital markets firms worldwide. 
+    sample_text = """Fintech Company is a Fortune 500 company providing financial 
+    technology solutions to firms worldwide. 
     The company leverages Databricks for data analytics and Snowflake for 
     data warehousing."""
     
