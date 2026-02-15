@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Enterprise RAG Pipeline - FIS Global Style"""
+"""Enterprise RAG Pipeline - Fintech Company Style"""
 
 import os
 import json
@@ -12,7 +12,7 @@ from pypdf import PdfReader
 from docx import Document as DocxDocument
 
 class EnterpriseRAG:
-    def __init__(self, collection_name: str = "fis_documents"):
+    def __init__(self, collection_name: str = "fintechcompany_documents"):
         """Initialize RAG pipeline with ChromaDB"""
         self.collection_name = collection_name
         self.ollama_base = "http://localhost:11434"
@@ -37,7 +37,7 @@ class EnterpriseRAG:
         except:
             self.collection = self.client.create_collection(
                 name=collection_name,
-                metadata={"description": "FIS Global document embeddings"}
+                metadata={"description": "Fintech Company document embeddings"}
             )
             print(f"✓ Created new collection: {collection_name}")
     
