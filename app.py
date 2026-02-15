@@ -169,4 +169,4 @@ if 'last_result' in st.session_state:
 
 # Footer
 st.divider()
-st.caption("Fintech Company - Client Success AI Enablement | Demo by Shawn")
+st.caption("Fintech Company - Client Success AI Enablement | Demo by Shawn Sammartano")
