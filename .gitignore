@@ -35,7 +35,7 @@ chromadb/
 # Documents (don't commit uploaded files)
 documents/*.pdf
 documents/*.docx
-!documents/fis_overview.txt
+!documents/fintechcompany_overview.txt
 
 # IDE
 .vscode/
