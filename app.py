@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-FIS RAG Demo - AI-Powered Document Search
+Fintech Company RAG Demo - AI-Powered Document Search
 For SVP of Client Success Presentation
 """
 
@@ -14,7 +14,7 @@ from scripts.rag_pipeline import EnterpriseRAG
 
 # Page config
 st.set_page_config(
-    page_title="FIS RAG Demo",
+    page_title="Fintech Company RAG Demo",
     page_icon="🔍",
     layout="wide"
 )
@@ -27,7 +27,7 @@ def get_rag():
 rag = get_rag()
 
 # Header
-st.title("🔍 FIS Global - AI Document Search")
+st.title("🔍 Fintech Company - AI Document Search")
 st.markdown("**Enterprise RAG System Demo** | Powered by Vector Search & LLM")
 st.divider()
 
@@ -103,7 +103,7 @@ with col1:
     # Query input
     question = st.text_input(
         "Question",
-        placeholder="What technology does FIS use for data warehousing?",
+        placeholder="What technology does Fintech Company use for data warehousing?",
         label_visibility="collapsed"
     )
     
@@ -169,4 +169,4 @@ if 'last_result' in st.session_state:
 
 # Footer
 st.divider()
-st.caption("FIS Global - Client Success AI Enablement | Demo by Shawn")
+st.caption("Fintech Company - Client Success AI Enablement | Demo by Shawn")
