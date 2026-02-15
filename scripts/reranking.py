@@ -168,7 +168,7 @@ if __name__ == "__main__":
         print("⚠️  No documents in database.")
         exit(1)
     
-    question = "What does FIS use for data analytics?"
+    question = "What does Fintech Company use for data analytics?"
     
     print(f"Question: {question}\n")
     print("Stage 1: Vector search (retrieving 10 candidates)...")
